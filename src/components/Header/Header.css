@@ -1,0 +1,30 @@
+.header {
+  background: #272c33;
+}
+
+.header__logo {
+  height: 5rem;
+}
+
+.header__content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__content__links {
+  padding: 0 1.2rem 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+.header__title h1 {
+  margin: 0;
+}

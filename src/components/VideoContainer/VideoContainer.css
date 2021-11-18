@@ -1,0 +1,20 @@
+.video__title {
+  padding: 30px 0 15px 0;
+  margin-bottom: 30px;
+  background: #fff;
+  border-bottom: 2px solid #e0f0fe;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.video__title:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #009bd9;
+  border-right: 3px solid #fff;
+  bottom: -2px;
+  left: 0;
+}

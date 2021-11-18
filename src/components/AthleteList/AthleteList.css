@@ -1,0 +1,12 @@
+.athlete-list {
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 480px) {
+  .athlete-list {
+    justify-content: center;
+  }
+}
