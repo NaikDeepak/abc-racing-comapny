@@ -1,0 +1,13 @@
+.racerlist__title {
+  position: "absolute";
+  top: 0;
+}
+.carousel-dark .carousel-caption {
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .racelist {
+    justify-content: center;
+  }
+}

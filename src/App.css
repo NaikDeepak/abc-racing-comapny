@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:disabled {
+  cursor: default;
 }
 
-.App-link {
-  color: #61dafb;
+.is-active {
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.my-modal {
+  width: 90vw; /* Occupy the 90% of the screen width */
+  max-width: 90vw;
+}
+
+.modal-content {
+  width: 90vw; /* Occupy the 90% of the screen width */
+  max-width: 90vw;
+  height: 90vh;
+  max-height: 90vh;
+}
+
+@media screen and (max-width: 480px) {
+  .modal-content {
+    width: 99vw;
+    height: 55vh;
+    margin-left: 15px;
+    padding-right: 15px;
+    max-height: 60vh;
   }
 }

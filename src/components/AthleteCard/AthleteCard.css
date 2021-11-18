@@ -1,0 +1,22 @@
+.athletecard {
+  width: 20rem;
+  margin: 2rem 0;
+  box-shadow: 0 8px 30px rgb(2 59 109 / 10%);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.athletecard:hover {
+  box-shadow: 0 8px 40px rgb(2 59 109 / 44%);
+}
+
+.athletecard__title {
+  color: #023b6d;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 480px) {
+  .athletecard {
+    width: 90%;
+    justify-content: center;
+  }
+}
